@@ -9,7 +9,9 @@ import org.springframework.stereotype.Service;
 
 import com.dan.usuario.repository.ClienteRepository;
 import com.dan.usuario.domain.Cliente;
+import com.dan.usuario.exceptions.CredencialException;
 import com.dan.usuario.service.ClienteService;
+import com.dan.usuario.service.CredencialService;
 
 @Service
 public class ClienteServiceImpl implements ClienteService {
@@ -21,14 +23,16 @@ public class ClienteServiceImpl implements ClienteService {
 	ClienteRepository clienteRepo;
 	@Autowired
 	ClienteService clienteServ;
+	@Autowired
+	CredencialService credencialService;
 	
 	@Override
-	public Cliente crearCliente(Cliente c) {
+	public Cliente crearCliente(Cliente c) throws CredencialException{
 		
-		if (this.clienteServ.situacionCrediticiaBCRA(c) == 1 || this.clienteServ.situacionCrediticiaBCRA(c) == 2) {
+		if (this.credencialService.situacionCrediticiaBCRA(c) == 1 || this.credencialService.situacionCrediticiaBCRA(c) == 2) {
 			return this.clienteRepo.save(c);
 		}
-		throw new RuntimeException("No tiene aprobacion crediticia");	
+		throw new CredencialException("No tiene aprobacion crediticia");	
 
 	}
 
@@ -57,13 +61,6 @@ public class ClienteServiceImpl implements ClienteService {
 		}
 		else return false;	
 	}
-
-	@Override
-	public Integer situacionCrediticiaBCRA(Cliente c) {
+	
 		
-		return  (int) (Math.random()*3+1);
-	}
-	
-	
-	
 }

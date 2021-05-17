@@ -7,6 +7,19 @@ public class Usuario {
 	private String password;
 	private TipoUsuario tipoUsuario;
 	
+	public Usuario() {
+		
+	}
+		
+	public Usuario(Integer id, String user, String password, TipoUsuario tipoUsuario) {
+		super();
+		this.id = id;
+		this.user = user;
+		this.password = password;
+		this.tipoUsuario = tipoUsuario;
+	}
+
+
 	public TipoUsuario getTipoUsuario() {
 		return tipoUsuario;
 	}
