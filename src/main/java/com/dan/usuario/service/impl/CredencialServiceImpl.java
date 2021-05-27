@@ -11,7 +11,7 @@ public class CredencialServiceImpl implements CredencialService {
 	@Override
 	public Integer situacionCrediticiaBCRA(Cliente c) {
 		// TODO Auto-generated method stub
-		return null;
+		return 1;
 	}
 
 }

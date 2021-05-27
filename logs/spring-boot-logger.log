@@ -1,0 +1,25 @@
+2021-05-27 00:54:43,133 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Se ha ejecutado el metodo: createObra
+2021-05-27 00:54:43,137 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] A continuacion se ejecutara el metodo: createObra
+2021-05-27 00:54:43,137 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Metodo de la clase: class com.dan.usuario.service.impl.ObraServiceImpl
+2021-05-27 00:54:43,137 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Argumentos: [Obra [id=10, descripcion=Construccion de casa, latitud=-20.3, longitud=11.7, direccion=Achaval Rodríguez 1000 - Rosario, superficie=30, tipo=TipoObra [id=2, descripcion=Casa], cliente=Cliente [id=4, razonSocial=Todo Construcciones, cuit=225212555, mail=todos_construcciones@gmail.com, maxCuentaCorriente=5000.0, habilitadoOnline=false, user=Usuario [id=4, userr=todos_construcciones@gmail.com, password=1234, tipoUsuario=TipoUsuario [id=1, tipo=Cliente]]]]]
+2021-05-27 00:54:43,161 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Se ha ejecutado el metodo: createObra
+2021-05-27 00:54:43,162 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] A continuacion se ejecutara el metodo: createObra
+2021-05-27 00:54:43,162 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Metodo de la clase: class com.dan.usuario.service.impl.ObraServiceImpl
+2021-05-27 00:54:43,162 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Argumentos: [Obra [id=11, descripcion=Construccion de edificio, latitud=-43.3, longitud=-25.2, direccion=Alvarez Jonte 167 - Rosario, superficie=55, tipo=TipoObra [id=3, descripcion=Edificio], cliente=Cliente [id=4, razonSocial=Todo Construcciones, cuit=225212555, mail=todos_construcciones@gmail.com, maxCuentaCorriente=5000.0, habilitadoOnline=false, user=Usuario [id=4, userr=todos_construcciones@gmail.com, password=1234, tipoUsuario=TipoUsuario [id=1, tipo=Cliente]]]]]
+2021-05-27 00:54:43,163 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Se ha ejecutado el metodo: createObra
+2021-05-27 00:54:43,164 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] A continuacion se ejecutara el metodo: createObra
+2021-05-27 00:54:43,164 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Metodo de la clase: class com.dan.usuario.service.impl.ObraServiceImpl
+2021-05-27 00:54:43,165 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Argumentos: [Obra [id=12, descripcion=Asfaltado de calle, latitud=53.3, longitud=35.2, direccion=Alvarez Jonte 0 al 600 - Rosario, superficie=55, tipo=TipoObra [id=4, descripcion=Vial], cliente=Cliente [id=4, razonSocial=Todo Construcciones, cuit=225212555, mail=todos_construcciones@gmail.com, maxCuentaCorriente=5000.0, habilitadoOnline=false, user=Usuario [id=4, userr=todos_construcciones@gmail.com, password=1234, tipoUsuario=TipoUsuario [id=1, tipo=Cliente]]]]]
+2021-05-27 00:54:43,166 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Se ha ejecutado el metodo: createObra
+2021-05-27 00:55:40,726 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] A continuacion se ejecutara el metodo: getAllObras
+2021-05-27 00:55:40,727 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Metodo de la clase: class com.dan.usuario.service.impl.ObraServiceImpl
+2021-05-27 00:55:40,727 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Argumentos: []
+2021-05-27 00:55:40,739 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Se ha ejecutado el metodo: getAllObras
+2021-05-27 00:55:48,009 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] A continuacion se ejecutara el metodo: getAllObras
+2021-05-27 00:55:48,009 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Metodo de la clase: class com.dan.usuario.service.impl.ObraServiceImpl
+2021-05-27 00:55:48,009 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Argumentos: []
+2021-05-27 00:55:48,018 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Se ha ejecutado el metodo: getAllObras
+2021-05-27 00:55:55,829 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] A continuacion se ejecutara el metodo: getAllObras
+2021-05-27 00:55:55,830 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Metodo de la clase: class com.dan.usuario.service.impl.ObraServiceImpl
+2021-05-27 00:55:55,830 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Argumentos: []
+2021-05-27 00:55:55,839 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Se ha ejecutado el metodo: getAllObras

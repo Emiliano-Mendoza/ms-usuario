@@ -2,16 +2,42 @@ package com.dan.usuario.domain;
 
 import java.util.List;
 
+import javax.persistence.CascadeType;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
+import javax.persistence.Table;
+
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
+@Entity
+@Table(name="USR_CLIENTE", schema="MS_USR")
 public class Cliente {
 	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String razonSocial;
     private String cuit;
     private String mail;
     private Double maxCuentaCorriente;
     private Boolean habilitadoOnline;
+    
+    @OneToOne(cascade = CascadeType.ALL)
+	@JoinColumn(name = "ID_USUARIO")
     private Usuario user;
+    
+    @OneToMany(mappedBy = "cliente", cascade = CascadeType.ALL)
+    @JsonManagedReference
     private List<Obra> obras;
+    
 	public Integer getId() {
 		return id;
 	}
@@ -60,5 +86,12 @@ public class Cliente {
 	public void setObras(List<Obra> obras) {
 		this.obras = obras;
 	}
+	@Override
+	public String toString() {
+		return "Cliente [id=" + id + ", razonSocial=" + razonSocial + ", cuit=" + cuit + ", mail=" + mail
+				+ ", maxCuentaCorriente=" + maxCuentaCorriente + ", habilitadoOnline=" + habilitadoOnline + ", user="
+				+ user + "]";
+	}
+	
     
 }

@@ -31,7 +31,7 @@ import com.dan.usuario.domain.Obra;
 import com.dan.usuario.domain.TipoObra;
 import com.dan.usuario.domain.TipoUsuario;
 import com.dan.usuario.domain.Usuario;
-import com.dan.usuario.repository.ClienteRepository;
+import com.dan.usuario.repository.ClienteRepoAux;
 import com.dan.usuario.service.ClienteService;
 
 @SpringBootTest
@@ -41,7 +41,7 @@ public class ClienteRestTest {
 	ClienteService clienteService;
 	
 	@MockBean
-	ClienteRepository clienteRepo;
+	ClienteRepoAux clienteRepo;
 	
 	Cliente cliente1;
 	Cliente cliente2;

@@ -1,7 +1,19 @@
 package com.dan.usuario.domain;
 
-public class TipoObra {
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+import javax.persistence.UniqueConstraint;
 
+@Entity
+@Table(name="USR_TIPO_OBRA", schema="MS_USR", 
+		uniqueConstraints =	{@UniqueConstraint(columnNames= {"DESCRIPCION"})})
+public class TipoObra {
+	
+	@Id
+	//@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
 	private String descripcion;
 	
@@ -17,4 +29,9 @@ public class TipoObra {
 	public void setDescripcion(String descripcion) {
 		this.descripcion = descripcion;
 	}
+	@Override
+	public String toString() {
+		return "TipoObra [id=" + id + ", descripcion=" + descripcion + "]";
+	}
+	
 }

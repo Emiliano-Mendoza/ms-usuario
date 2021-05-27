@@ -25,7 +25,7 @@ import com.dan.usuario.domain.TipoObra;
 import com.dan.usuario.domain.TipoUsuario;
 import com.dan.usuario.domain.Usuario;
 import com.dan.usuario.exceptions.CredencialException;
-import com.dan.usuario.repository.ClienteRepository;
+import com.dan.usuario.repository.ClienteRepoAux;
 import com.dan.usuario.service.ClienteService;
 import com.dan.usuario.service.CredencialService;
 
@@ -36,7 +36,7 @@ public class ClienteServiceImplUnitTest {
 	ClienteService clienteService;
 	
 	@MockBean
-	ClienteRepository clienteRepo;
+	ClienteRepoAux clienteRepo;
 	@MockBean
 	CredencialService credencialService;
 	
