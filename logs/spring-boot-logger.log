@@ -1,0 +1,69 @@
+2021-05-29 17:28:22,186 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Se ha ejecutado el metodo: findByCuit
+2021-05-29 17:28:44,105 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] A continuacion se ejecutara el metodo: findByRazonSocial
+2021-05-29 17:28:44,106 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-05-29 17:28:44,106 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Argumentos: [Reformate]
+2021-05-29 17:28:44,113 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Se ha ejecutado el metodo: findByRazonSocial
+2021-05-29 17:29:39,930 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] A continuacion se ejecutara el metodo: findByCuit
+2021-05-29 17:29:39,930 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-05-29 17:29:39,931 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Argumentos: [2038928293]
+2021-05-29 17:29:39,934 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Se ha ejecutado el metodo: findByCuit
+2021-05-29 17:30:20,163 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] A continuacion se ejecutara el metodo: findByRazonSocial
+2021-05-29 17:30:20,164 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-05-29 17:30:20,165 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Argumentos: [AmazingBuildings]
+2021-05-29 17:30:20,169 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Se ha ejecutado el metodo: findByRazonSocial
+2021-05-29 17:30:58,427 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] A continuacion se ejecutara el metodo: findById
+2021-05-29 17:30:58,428 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Metodo de la clase: class com.dan.usuario.service.impl.ObraServiceImpl
+2021-05-29 17:30:58,428 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Argumentos: [1]
+2021-05-29 17:30:58,432 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Se ha ejecutado el metodo: findById
+2021-05-29 17:30:58,433 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] A continuacion se ejecutara el metodo: buscarPorId
+2021-05-29 17:30:58,433 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-05-29 17:30:58,433 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Argumentos: [1]
+2021-05-29 17:30:58,434 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Se ha ejecutado el metodo: buscarPorId
+2021-05-29 17:31:26,954 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] A continuacion se ejecutara el metodo: findById
+2021-05-29 17:31:26,955 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] Metodo de la clase: class com.dan.usuario.service.impl.ObraServiceImpl
+2021-05-29 17:31:26,955 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] Argumentos: [3]
+2021-05-29 17:31:26,958 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] Se ha ejecutado el metodo: findById
+2021-05-29 17:31:26,959 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] A continuacion se ejecutara el metodo: buscarPorId
+2021-05-29 17:31:26,959 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-05-29 17:31:26,959 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] Argumentos: [2]
+2021-05-29 17:31:26,960 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] Se ha ejecutado el metodo: buscarPorId
+2021-05-29 17:32:17,592 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-6] A continuacion se ejecutara el metodo: getAllObras
+2021-05-29 17:32:17,593 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-6] Metodo de la clase: class com.dan.usuario.service.impl.ObraServiceImpl
+2021-05-29 17:32:17,593 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-6] Argumentos: []
+2021-05-29 17:32:17,617 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-6] Se ha ejecutado el metodo: getAllObras
+2021-05-29 17:32:58,612 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-7] A continuacion se ejecutara el metodo: findById
+2021-05-29 17:32:58,612 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-7] Metodo de la clase: class com.dan.usuario.service.impl.ObraServiceImpl
+2021-05-29 17:32:58,612 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-7] Argumentos: [10]
+2021-05-29 17:32:58,616 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-7] Se ha ejecutado el metodo: findById
+2021-05-29 17:33:12,171 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-8] A continuacion se ejecutara el metodo: findById
+2021-05-29 17:33:12,172 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-8] Metodo de la clase: class com.dan.usuario.service.impl.ObraServiceImpl
+2021-05-29 17:33:12,172 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-8] Argumentos: [4]
+2021-05-29 17:33:12,177 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-8] Se ha ejecutado el metodo: findById
+2021-05-29 17:33:30,475 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] A continuacion se ejecutara el metodo: getAllObras
+2021-05-29 17:33:30,475 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Metodo de la clase: class com.dan.usuario.service.impl.ObraServiceImpl
+2021-05-29 17:33:30,476 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Argumentos: []
+2021-05-29 17:33:30,488 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Se ha ejecutado el metodo: getAllObras
+2021-05-29 17:34:15,716 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] A continuacion se ejecutara el metodo: getAllObras
+2021-05-29 17:34:15,717 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Metodo de la clase: class com.dan.usuario.service.impl.ObraServiceImpl
+2021-05-29 17:34:15,717 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Argumentos: []
+2021-05-29 17:34:15,725 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Se ha ejecutado el metodo: getAllObras
+2021-05-29 17:34:33,417 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] A continuacion se ejecutara el metodo: getAllObras
+2021-05-29 17:34:33,418 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Metodo de la clase: class com.dan.usuario.service.impl.ObraServiceImpl
+2021-05-29 17:34:33,418 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Argumentos: []
+2021-05-29 17:34:33,425 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Se ha ejecutado el metodo: getAllObras
+2021-05-29 17:35:07,071 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] A continuacion se ejecutara el metodo: getAllObras
+2021-05-29 17:35:07,071 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Metodo de la clase: class com.dan.usuario.service.impl.ObraServiceImpl
+2021-05-29 17:35:07,072 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Argumentos: []
+2021-05-29 17:35:07,080 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Se ha ejecutado el metodo: getAllObras
+2021-05-29 17:35:30,374 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] A continuacion se ejecutara el metodo: getAllObras
+2021-05-29 17:35:30,374 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] Metodo de la clase: class com.dan.usuario.service.impl.ObraServiceImpl
+2021-05-29 17:35:30,374 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] Argumentos: []
+2021-05-29 17:35:30,381 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] Se ha ejecutado el metodo: getAllObras
+2021-05-29 17:35:57,231 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-6] A continuacion se ejecutara el metodo: getAllObras
+2021-05-29 17:35:57,232 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-6] Metodo de la clase: class com.dan.usuario.service.impl.ObraServiceImpl
+2021-05-29 17:35:57,232 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-6] Argumentos: []
+2021-05-29 17:35:57,243 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-6] Se ha ejecutado el metodo: getAllObras
+2021-05-29 17:36:15,028 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-7] A continuacion se ejecutara el metodo: getAllObras
+2021-05-29 17:36:15,028 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-7] Metodo de la clase: class com.dan.usuario.service.impl.ObraServiceImpl
+2021-05-29 17:36:15,029 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-7] Argumentos: []
+2021-05-29 17:36:15,036 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-7] Se ha ejecutado el metodo: getAllObras
