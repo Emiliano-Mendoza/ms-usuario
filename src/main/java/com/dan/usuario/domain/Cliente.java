@@ -92,6 +92,12 @@ public class Cliente {
 				+ ", maxCuentaCorriente=" + maxCuentaCorriente + ", habilitadoOnline=" + habilitadoOnline + ", user="
 				+ user + "]";
 	}
-	
+	public Cliente(String razonSocial) {
+		super();
+		this.razonSocial = razonSocial;
+	}
+	public Cliente() {
+		
+	}
     
 }

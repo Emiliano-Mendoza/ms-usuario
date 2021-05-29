@@ -86,7 +86,7 @@ public class ClienteRest {
     			if(obras.get(i).getDescripcion()==null || obras.get(i).getDireccion()==null
     					|| obras.get(i).getLatitud()==null || obras.get(i).getLongitud()==null
     					|| obras.get(i).getSuperficie()==null || obras.get(i).getTipo()==null) {
-    				throw new RuntimeException("--- Error, campos de obra incompletos --- ");
+    				return ResponseEntity.badRequest().body(("Campos de obra incompletos"));
     			}
     		}
     		
@@ -119,10 +119,11 @@ public class ClienteRest {
                 	return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
                 }
             }
-            else throw new RuntimeException("--- Error, mail invalido --- ");
+            else return ResponseEntity.badRequest().body(("Error, mail invalido"));
+        	
             	        
     	}
-    	else throw new RuntimeException("--- Error, cliente sin obras --- ");
+    	else return ResponseEntity.badRequest().body(("Error, cliente sin obras"));
     	
     }
 

@@ -17,6 +17,15 @@ public class TipoObra {
 	private Integer id;
 	private String descripcion;
 	
+	public TipoObra(int i) {
+		this.id = i;
+	}
+	
+	public TipoObra() {
+		
+	}
+	
+	
 	public Integer getId() {
 		return id;
 	}

@@ -85,14 +85,14 @@ public class ObraRest {
     }
     
     @PostMapping
-    public ResponseEntity<Obra> crear(@RequestBody Obra nuevo){
+    public ResponseEntity<?> crear(@RequestBody Obra nuevo){
     	System.out.println(" crear obra "+nuevo);
     	
     	//verifico que esten completos los campos de la obra
-        if(nuevo.getCliente()==null || nuevo.getDescripcion()==null || /*nuevo.getDireccion()==null
-        		||*/ nuevo.getLatitud()==null || nuevo.getLongitud()==null || nuevo.getSuperficie()==null
-        		|| nuevo.getTipo()==null || nuevo.getTipo().getId()==null) {
-        	throw new RuntimeException("Error, campos de obra incompletos");
+        if(/*nuevo.getCliente()==null ||*/ nuevo.getDescripcion()==null || nuevo.getDireccion()==null
+        		|| nuevo.getLatitud()==null || nuevo.getLongitud()==null || nuevo.getSuperficie()==null
+        		|| nuevo.getTipo()==null  || nuevo.getTipo().getId()==null) {
+        	return ResponseEntity.badRequest().body(("Campos de obra incompletos"));
         }
         else {
         	Optional<TipoObra> tipo = tipoServ.findById(nuevo.getTipo().getId());

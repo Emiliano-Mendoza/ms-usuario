@@ -1,42 +1,34 @@
 package com.dan.usuario.service.impl;
 
-import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
-import java.time.Duration;
-import java.util.ArrayList;
-import java.util.Arrays;
-
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
-import org.mockito.invocation.InvocationOnMock;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.test.context.SpringBootTest.WebEnvironment;
 import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.context.annotation.Profile;
 
+import com.dan.usuario.DanUsuarioTest;
+import com.dan.usuario.dao.ClienteRepository;
 import com.dan.usuario.domain.Cliente;
-import com.dan.usuario.domain.Obra;
-import com.dan.usuario.domain.TipoObra;
-import com.dan.usuario.domain.TipoUsuario;
-import com.dan.usuario.domain.Usuario;
 import com.dan.usuario.exceptions.CredencialException;
-import com.dan.usuario.repository.ClienteRepoAux;
 import com.dan.usuario.service.ClienteService;
 import com.dan.usuario.service.CredencialService;
 
-@SpringBootTest
+@SpringBootTest( 
+		classes = DanUsuarioTest.class,
+		webEnvironment = WebEnvironment.RANDOM_PORT)
+@Profile("testing")
 public class ClienteServiceImplUnitTest {
 	
 	@Autowired
 	ClienteService clienteService;
 	
 	@MockBean
-	ClienteRepoAux clienteRepo;
+	ClienteRepository clienteRepo;
 	@MockBean
 	CredencialService credencialService;
 	
