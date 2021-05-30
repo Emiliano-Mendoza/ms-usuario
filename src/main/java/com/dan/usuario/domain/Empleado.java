@@ -10,7 +10,7 @@ import javax.persistence.Table;
 
 
 @Entity
-@Table(name="USR_EMPLEADO", schema="MS_USR")
+@Table(name="USR_EMPLEADO")
 public class Empleado {
 	
 	@Id

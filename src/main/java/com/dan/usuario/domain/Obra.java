@@ -14,7 +14,7 @@ import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Entity
-@Table(name="USR_OBRA", schema="MS_USR")
+@Table(name="obra")
 public class Obra {
 	
 	@Id
@@ -31,7 +31,7 @@ public class Obra {
 	private TipoObra tipo;
 	
 	@ManyToOne(/*cascade = CascadeType.ALL*/)
-	@JoinColumn(name = "ID_CLIENTE")
+	@JoinColumn(name = "CLIENTE_ID")
 	@JsonBackReference
 	private Cliente cliente;
 	

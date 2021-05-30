@@ -10,7 +10,7 @@ import javax.persistence.Table;
 import javax.persistence.UniqueConstraint;
 
 @Entity
-@Table(name="USR_TIPO_USUARIO", schema="MS_USR",
+@Table(name="USR_TIPO_USUARIO",
 		uniqueConstraints =	{@UniqueConstraint(columnNames= {"TIPO"})})
 public class TipoUsuario {
 	

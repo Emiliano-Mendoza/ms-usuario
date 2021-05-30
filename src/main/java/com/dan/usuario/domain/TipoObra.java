@@ -8,7 +8,7 @@ import javax.persistence.Table;
 import javax.persistence.UniqueConstraint;
 
 @Entity
-@Table(name="USR_TIPO_OBRA", schema="MS_USR", 
+@Table(name="USR_TIPO_OBRA", 
 		uniqueConstraints =	{@UniqueConstraint(columnNames= {"DESCRIPCION"})})
 public class TipoObra {
 	
