@@ -1,5 +1,6 @@
 package com.dan.usuario.domain;
 
+import java.util.Date;
 import java.util.List;
 
 import javax.persistence.CascadeType;
@@ -38,6 +39,7 @@ public class Cliente {
     @OneToMany(mappedBy = "cliente", cascade = CascadeType.ALL)
     @JsonManagedReference
     private List<Obra> obras;
+    private Date fechaBaja;
     
 	public Integer getId() {
 		return id;

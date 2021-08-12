@@ -1,0 +1,88 @@
+2021-08-04 20:05:59,514 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting UsuarioApplication using Java 15.0.1 on DESKTOP-KTL7JPA with PID 9084 (C:\Users\Usuario\Desktop\Sistemas\Electivas\Desarrollo de aplicaciones en la Nube\Laboratorio\Repositorios Integrados\dan-ms-usuarios\target\classes started by Usuario in C:\Users\Usuario\Desktop\Sistemas\Electivas\Desarrollo de aplicaciones en la Nube\Laboratorio\Repositorios Integrados\dan-ms-usuarios)
+2021-08-04 20:05:59,522 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-08-04 20:06:13,911 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started UsuarioApplication in 15.106 seconds (JVM running for 16.868)
+2021-08-04 23:21:16,368 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting UsuarioApplication using Java 15.0.1 on DESKTOP-KTL7JPA with PID 15044 (C:\Users\Usuario\Desktop\Sistemas\Electivas\Desarrollo de aplicaciones en la Nube\Laboratorio\Repositorios Integrados\dan-ms-usuarios\target\classes started by Usuario in C:\Users\Usuario\Desktop\Sistemas\Electivas\Desarrollo de aplicaciones en la Nube\Laboratorio\Repositorios Integrados\dan-ms-usuarios)
+2021-08-04 23:21:16,382 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-08-04 23:21:29,602 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started UsuarioApplication in 13.913 seconds (JVM running for 15.268)
+2021-08-04 23:22:26,176 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] A continuacion se ejecutara el metodo: listarClientes
+2021-08-04 23:22:26,177 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-04 23:22:26,177 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Argumentos: []
+2021-08-04 23:22:26,765 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Se ha ejecutado el metodo: listarClientes
+2021-08-04 23:26:53,189 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] A continuacion se ejecutara el metodo: crearCliente
+2021-08-04 23:26:53,190 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-04 23:26:53,197 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Argumentos: [Cliente [id=null, razonSocial=Construcciones Pablito, cuit=2038928293, mail=yuudfs@gmail.com, maxCuentaCorriente=5000.0, habilitadoOnline=false, user=Usuario [id=null, userr=yuudfs@gmail.com, password=1234, tipoUsuario=TipoUsuario [id=1, tipo=Cliente]]]]
+2021-08-04 23:26:53,311 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Se ha ejecutado el metodo: crearCliente
+2021-08-04 23:26:53,311 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] A continuacion se ejecutara el metodo: createObra
+2021-08-04 23:26:53,311 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Metodo de la clase: class com.dan.usuario.service.impl.ObraServiceImpl
+2021-08-04 23:26:53,317 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Argumentos: [Obra [id=1, descripcion=Casa simple, latitud=43.3, longitud=-21.7, direccion=San Luis 2342 - Parana, superficie=25, tipo=TipoObra [id=2, descripcion=Casa], cliente=Cliente [id=1, razonSocial=Construcciones Pablito, cuit=2038928293, mail=yuudfs@gmail.com, maxCuentaCorriente=5000.0, habilitadoOnline=false, user=Usuario [id=1, userr=yuudfs@gmail.com, password=1234, tipoUsuario=TipoUsuario [id=1, tipo=Cliente]]]]]
+2021-08-04 23:26:53,327 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Se ha ejecutado el metodo: createObra
+2021-08-04 23:26:53,328 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] A continuacion se ejecutara el metodo: createObra
+2021-08-04 23:26:53,328 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Metodo de la clase: class com.dan.usuario.service.impl.ObraServiceImpl
+2021-08-04 23:26:53,329 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Argumentos: [Obra [id=2, descripcion=Reforma de iglesia, latitud=51.3, longitud=-11.7, direccion=9 de Junio 432 - Laguna Paiva, superficie=50, tipo=TipoObra [id=1, descripcion=Reforma], cliente=Cliente [id=1, razonSocial=Construcciones Pablito, cuit=2038928293, mail=yuudfs@gmail.com, maxCuentaCorriente=5000.0, habilitadoOnline=false, user=Usuario [id=1, userr=yuudfs@gmail.com, password=1234, tipoUsuario=TipoUsuario [id=1, tipo=Cliente]]]]]
+2021-08-04 23:26:53,330 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Se ha ejecutado el metodo: createObra
+2021-08-04 23:26:55,450 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] A continuacion se ejecutara el metodo: crearCliente
+2021-08-04 23:26:55,450 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-04 23:26:55,451 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Argumentos: [Cliente [id=null, razonSocial=Reformate, cuit=2454020324, mail=reformate_da@gmail.com, maxCuentaCorriente=5000.0, habilitadoOnline=false, user=Usuario [id=null, userr=reformate_da@gmail.com, password=1234, tipoUsuario=TipoUsuario [id=1, tipo=Cliente]]]]
+2021-08-04 23:26:55,463 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Se ha ejecutado el metodo: crearCliente
+2021-08-04 23:26:55,464 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] A continuacion se ejecutara el metodo: createObra
+2021-08-04 23:26:55,465 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Metodo de la clase: class com.dan.usuario.service.impl.ObraServiceImpl
+2021-08-04 23:26:55,466 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Argumentos: [Obra [id=3, descripcion=Reforma de parque, latitud=60.3, longitud=31.7, direccion=27 de Febrero 220 - Rosario, superficie=50, tipo=TipoObra [id=1, descripcion=Reforma], cliente=Cliente [id=2, razonSocial=Reformate, cuit=2454020324, mail=reformate_da@gmail.com, maxCuentaCorriente=5000.0, habilitadoOnline=false, user=Usuario [id=2, userr=reformate_da@gmail.com, password=1234, tipoUsuario=TipoUsuario [id=1, tipo=Cliente]]]]]
+2021-08-04 23:26:55,468 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Se ha ejecutado el metodo: createObra
+2021-08-04 23:26:55,469 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] A continuacion se ejecutara el metodo: createObra
+2021-08-04 23:26:55,469 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Metodo de la clase: class com.dan.usuario.service.impl.ObraServiceImpl
+2021-08-04 23:26:55,470 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Argumentos: [Obra [id=4, descripcion=Reforma de escuela, latitud=20.3, longitud=11.7, direccion=Achaval Rodríguez 1399 - Rosario, superficie=50, tipo=TipoObra [id=1, descripcion=Reforma], cliente=Cliente [id=2, razonSocial=Reformate, cuit=2454020324, mail=reformate_da@gmail.com, maxCuentaCorriente=5000.0, habilitadoOnline=false, user=Usuario [id=2, userr=reformate_da@gmail.com, password=1234, tipoUsuario=TipoUsuario [id=1, tipo=Cliente]]]]]
+2021-08-04 23:26:55,472 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Se ha ejecutado el metodo: createObra
+2021-08-04 23:26:55,472 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] A continuacion se ejecutara el metodo: createObra
+2021-08-04 23:26:55,472 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Metodo de la clase: class com.dan.usuario.service.impl.ObraServiceImpl
+2021-08-04 23:26:55,473 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Argumentos: [Obra [id=5, descripcion=Reforma de escuela, latitud=43.3, longitud=25.2, direccion=Alvarez Jonte 777 - Rosario, superficie=55, tipo=TipoObra [id=1, descripcion=Reforma], cliente=Cliente [id=2, razonSocial=Reformate, cuit=2454020324, mail=reformate_da@gmail.com, maxCuentaCorriente=5000.0, habilitadoOnline=false, user=Usuario [id=2, userr=reformate_da@gmail.com, password=1234, tipoUsuario=TipoUsuario [id=1, tipo=Cliente]]]]]
+2021-08-04 23:26:55,475 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Se ha ejecutado el metodo: createObra
+2021-08-04 23:27:03,696 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] A continuacion se ejecutara el metodo: listarClientes
+2021-08-04 23:27:03,697 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-04 23:27:03,697 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Argumentos: []
+2021-08-04 23:27:03,754 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Se ha ejecutado el metodo: listarClientes
+2021-08-04 23:47:31,717 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting UsuarioApplication using Java 15.0.1 on DESKTOP-KTL7JPA with PID 14364 (C:\Users\Usuario\Desktop\Sistemas\Electivas\Desarrollo de aplicaciones en la Nube\Laboratorio\Repositorios Integrados\dan-ms-usuarios\target\classes started by Usuario in C:\Users\Usuario\Desktop\Sistemas\Electivas\Desarrollo de aplicaciones en la Nube\Laboratorio\Repositorios Integrados\dan-ms-usuarios)
+2021-08-04 23:47:31,739 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-08-04 23:47:40,621 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started UsuarioApplication in 9.592 seconds (JVM running for 10.831)
+2021-08-04 23:48:23,892 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] A continuacion se ejecutara el metodo: listarClientes
+2021-08-04 23:48:23,893 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-04 23:48:23,893 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Argumentos: []
+2021-08-04 23:48:24,098 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Se ha ejecutado el metodo: listarClientes
+2021-08-04 23:48:44,288 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] A continuacion se ejecutara el metodo: crearCliente
+2021-08-04 23:48:44,289 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-04 23:48:44,301 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Argumentos: [Cliente [id=null, razonSocial=Construcciones Pablito, cuit=2038928293, mail=yuudfs@gmail.com, maxCuentaCorriente=5000.0, habilitadoOnline=false, user=Usuario [id=null, userr=yuudfs@gmail.com, password=1234, tipoUsuario=TipoUsuario [id=1, tipo=Cliente]]]]
+2021-08-04 23:48:44,554 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Se ha ejecutado el metodo: crearCliente
+2021-08-04 23:48:44,554 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] A continuacion se ejecutara el metodo: createObra
+2021-08-04 23:48:44,555 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Metodo de la clase: class com.dan.usuario.service.impl.ObraServiceImpl
+2021-08-04 23:48:44,561 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Argumentos: [Obra [id=1, descripcion=Casa simple, latitud=43.3, longitud=-21.7, direccion=San Luis 2342 - Parana, superficie=25, tipo=TipoObra [id=2, descripcion=Casa], cliente=Cliente [id=1, razonSocial=Construcciones Pablito, cuit=2038928293, mail=yuudfs@gmail.com, maxCuentaCorriente=5000.0, habilitadoOnline=false, user=Usuario [id=1, userr=yuudfs@gmail.com, password=1234, tipoUsuario=TipoUsuario [id=1, tipo=Cliente]]]]]
+2021-08-04 23:48:44,572 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Se ha ejecutado el metodo: createObra
+2021-08-04 23:48:44,573 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] A continuacion se ejecutara el metodo: createObra
+2021-08-04 23:48:44,573 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Metodo de la clase: class com.dan.usuario.service.impl.ObraServiceImpl
+2021-08-04 23:48:44,574 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Argumentos: [Obra [id=2, descripcion=Reforma de iglesia, latitud=51.3, longitud=-11.7, direccion=9 de Junio 432 - Laguna Paiva, superficie=50, tipo=TipoObra [id=1, descripcion=Reforma], cliente=Cliente [id=1, razonSocial=Construcciones Pablito, cuit=2038928293, mail=yuudfs@gmail.com, maxCuentaCorriente=5000.0, habilitadoOnline=false, user=Usuario [id=1, userr=yuudfs@gmail.com, password=1234, tipoUsuario=TipoUsuario [id=1, tipo=Cliente]]]]]
+2021-08-04 23:48:44,576 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Se ha ejecutado el metodo: createObra
+2021-08-04 23:48:49,836 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] A continuacion se ejecutara el metodo: listarClientes
+2021-08-04 23:48:49,837 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-04 23:48:49,837 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Argumentos: []
+2021-08-04 23:48:49,855 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Se ha ejecutado el metodo: listarClientes
+2021-08-04 23:49:12,536 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] A continuacion se ejecutara el metodo: listarClientes
+2021-08-04 23:49:12,536 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-04 23:49:12,537 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Argumentos: []
+2021-08-04 23:49:12,540 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Se ha ejecutado el metodo: listarClientes
+2021-08-04 23:55:53,955 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] A continuacion se ejecutara el metodo: crearCliente
+2021-08-04 23:55:53,956 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-04 23:55:53,956 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Argumentos: [Cliente [id=null, razonSocial=Reformate, cuit=2454020324, mail=reformate_da@gmail.com, maxCuentaCorriente=5000.0, habilitadoOnline=false, user=Usuario [id=null, userr=reformate_da@gmail.com, password=1234, tipoUsuario=TipoUsuario [id=1, tipo=Cliente]]]]
+2021-08-04 23:55:54,026 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Se ha ejecutado el metodo: crearCliente
+2021-08-04 23:56:14,489 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] A continuacion se ejecutara el metodo: listarClientes
+2021-08-04 23:56:14,489 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-04 23:56:14,489 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Argumentos: []
+2021-08-04 23:56:14,573 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Se ha ejecutado el metodo: listarClientes
+2021-08-04 23:58:26,684 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting UsuarioApplication using Java 15.0.1 on DESKTOP-KTL7JPA with PID 16220 (C:\Users\Usuario\Desktop\Sistemas\Electivas\Desarrollo de aplicaciones en la Nube\Laboratorio\Repositorios Integrados\dan-ms-usuarios\target\classes started by Usuario in C:\Users\Usuario\Desktop\Sistemas\Electivas\Desarrollo de aplicaciones en la Nube\Laboratorio\Repositorios Integrados\dan-ms-usuarios)
+2021-08-04 23:58:26,688 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-08-04 23:58:33,934 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started UsuarioApplication in 7.805 seconds (JVM running for 8.896)
+2021-08-04 23:59:13,386 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] A continuacion se ejecutara el metodo: listarClientes
+2021-08-04 23:59:13,387 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-04 23:59:13,388 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Argumentos: []
+2021-08-04 23:59:13,649 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Se ha ejecutado el metodo: listarClientes
+2021-08-04 23:59:18,254 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] A continuacion se ejecutara el metodo: listarClientes
+2021-08-04 23:59:18,255 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-04 23:59:18,255 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Argumentos: []
+2021-08-04 23:59:18,258 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Se ha ejecutado el metodo: listarClientes

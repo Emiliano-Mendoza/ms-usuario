@@ -1,0 +1,36 @@
+2021-08-03 02:18:01,523 INFO org.springframework.boot.StartupInfoLogger [main] Starting ClienteRestTest using Java 15.0.1 on DESKTOP-KTL7JPA with PID 9764 (started by Usuario in C:\Users\Usuario\Desktop\Sistemas\Electivas\Desarrollo de aplicaciones en la Nube\Laboratorio\Repositorios Integrados\dan-ms-usuarios)
+2021-08-03 02:18:01,531 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-08-03 02:18:01,531 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: testing
+2021-08-03 02:18:15,276 INFO org.springframework.boot.StartupInfoLogger [main] Started ClienteRestTest in 14.737 seconds (JVM running for 18.447)
+2021-08-03 02:18:15,848 INFO com.dan.usuario.aspect.LogAspect [http-nio-auto-1-exec-1] A continuacion se ejecutara el metodo: crearCliente
+2021-08-03 02:18:15,850 INFO com.dan.usuario.aspect.LogAspect [http-nio-auto-1-exec-1] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-03 02:18:15,853 INFO com.dan.usuario.aspect.LogAspect [http-nio-auto-1-exec-1] Argumentos: [Cliente [id=null, razonSocial=Razon 1, cuit=4532423, mail=asdas@gmail.com, maxCuentaCorriente=5000.0, habilitadoOnline=false, user=Usuario [id=null, userr=asdas@gmail.com, password=1234, tipoUsuario=TipoUsuario [id=1, tipo=Cliente]]]]
+2021-08-03 02:18:15,884 INFO com.dan.usuario.aspect.LogAspect [http-nio-auto-1-exec-1] Se ha ejecutado el metodo: crearCliente
+2021-08-03 02:18:15,884 INFO com.dan.usuario.aspect.LogAspect [http-nio-auto-1-exec-1] A continuacion se ejecutara el metodo: createObra
+2021-08-03 02:18:15,885 INFO com.dan.usuario.aspect.LogAspect [http-nio-auto-1-exec-1] Metodo de la clase: class com.dan.usuario.service.impl.ObraServiceImpl
+2021-08-03 02:18:15,893 INFO com.dan.usuario.aspect.LogAspect [http-nio-auto-1-exec-1] Argumentos: [Obra [id=null, descripcion=desc, latitud=10.3, longitud=43.1, direccion=dir, superficie=32, tipo=TipoObra [id=null, descripcion=null], cliente=Cliente [id=null, razonSocial=Razon 1, cuit=4532423, mail=asdas@gmail.com, maxCuentaCorriente=5000.0, habilitadoOnline=false, user=null]]]
+2021-08-03 02:18:15,906 INFO com.dan.usuario.aspect.LogAspect [http-nio-auto-1-exec-1] Se ha ejecutado el metodo: createObra
+2021-08-03 02:18:16,170 INFO org.springframework.boot.StartupInfoLogger [main] Starting ObraRestTest using Java 15.0.1 on DESKTOP-KTL7JPA with PID 9764 (started by Usuario in C:\Users\Usuario\Desktop\Sistemas\Electivas\Desarrollo de aplicaciones en la Nube\Laboratorio\Repositorios Integrados\dan-ms-usuarios)
+2021-08-03 02:18:16,171 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-08-03 02:18:16,171 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: testing
+2021-08-03 02:18:19,558 INFO org.springframework.boot.StartupInfoLogger [main] Started ObraRestTest in 3.451 seconds (JVM running for 22.729)
+2021-08-03 02:18:19,783 INFO com.dan.usuario.aspect.LogAspect [http-nio-auto-2-exec-1] A continuacion se ejecutara el metodo: createObra
+2021-08-03 02:18:19,784 INFO com.dan.usuario.aspect.LogAspect [http-nio-auto-2-exec-1] Metodo de la clase: class com.dan.usuario.service.impl.ObraServiceImpl
+2021-08-03 02:18:19,784 INFO com.dan.usuario.aspect.LogAspect [http-nio-auto-2-exec-1] Argumentos: [Obra [id=null, descripcion=desc, latitud=10.3, longitud=43.1, direccion=dir, superficie=32, tipo=TipoObra [id=1, descripcion=null], cliente=null]]
+2021-08-03 02:18:19,796 INFO com.dan.usuario.aspect.LogAspect [http-nio-auto-2-exec-1] Se ha ejecutado el metodo: createObra
+2021-08-03 02:18:19,906 INFO org.springframework.boot.StartupInfoLogger [main] Starting ClienteServiceImplUnitTest using Java 15.0.1 on DESKTOP-KTL7JPA with PID 9764 (started by Usuario in C:\Users\Usuario\Desktop\Sistemas\Electivas\Desarrollo de aplicaciones en la Nube\Laboratorio\Repositorios Integrados\dan-ms-usuarios)
+2021-08-03 02:18:19,907 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-08-03 02:18:19,909 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: testing
+2021-08-03 02:18:22,617 INFO org.springframework.boot.StartupInfoLogger [main] Started ClienteServiceImplUnitTest in 2.754 seconds (JVM running for 25.788)
+2021-08-03 02:18:22,627 INFO com.dan.usuario.aspect.LogAspect [main] A continuacion se ejecutara el metodo: crearCliente
+2021-08-03 02:18:22,628 INFO com.dan.usuario.aspect.LogAspect [main] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-03 02:18:22,628 INFO com.dan.usuario.aspect.LogAspect [main] Argumentos: [Cliente [id=null, razonSocial=null, cuit=null, mail=null, maxCuentaCorriente=null, habilitadoOnline=null, user=null]]
+2021-08-03 02:18:22,630 INFO com.dan.usuario.aspect.LogAspect [main] Se ha ejecutado el metodo: crearCliente
+2021-08-03 02:18:22,639 INFO com.dan.usuario.aspect.LogAspect [main] A continuacion se ejecutara el metodo: crearCliente
+2021-08-03 02:18:22,640 INFO com.dan.usuario.aspect.LogAspect [main] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-03 02:18:22,640 INFO com.dan.usuario.aspect.LogAspect [main] Argumentos: [Cliente [id=null, razonSocial=null, cuit=null, mail=null, maxCuentaCorriente=null, habilitadoOnline=null, user=null]]
+2021-08-03 02:18:22,642 INFO com.dan.usuario.aspect.LogAspect [main] Se ha ejecutado el metodo: crearCliente
+2021-08-03 02:18:22,664 INFO com.dan.usuario.aspect.LogAspect [main] A continuacion se ejecutara el metodo: crearCliente
+2021-08-03 02:18:22,664 INFO com.dan.usuario.aspect.LogAspect [main] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-03 02:18:22,665 INFO com.dan.usuario.aspect.LogAspect [main] Argumentos: [Cliente [id=null, razonSocial=null, cuit=null, mail=null, maxCuentaCorriente=null, habilitadoOnline=null, user=null]]
+2021-08-03 02:18:22,666 INFO com.dan.usuario.aspect.LogAspect [main] Se ha ejecutado el metodo: crearCliente
