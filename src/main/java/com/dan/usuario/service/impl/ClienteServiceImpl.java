@@ -65,5 +65,11 @@ public class ClienteServiceImpl implements ClienteService {
 	public boolean existeCliente(Integer id) {
 		return clienteRepo.existsById(id);
 	}
-		
+
+	@Override
+	public Optional<Cliente> findByMail(String mail) {
+		// TODO Auto-generated method stub
+		return clienteRepo.findByMail(mail);
+	}
+	
 }

@@ -10,5 +10,6 @@ public interface ClienteRepository extends JpaRepository<Cliente, Integer> {
 	
 	public Optional<Cliente> findByCuit(String cuit);
 	public Optional<Cliente> findByRazonSocial(String razonSocial);
+	public Optional<Cliente> findByMail(String mail);
 	
 }

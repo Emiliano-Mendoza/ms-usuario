@@ -18,6 +18,7 @@ import java.util.regex.Pattern;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -32,7 +33,8 @@ import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
 
-
+//@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api/cliente")
 @Api(value = "ClienteRest")
@@ -62,6 +64,12 @@ public class ClienteRest {
     @ApiOperation(value = "Busca un cliente por razonSocial")
     public ResponseEntity<Cliente> clientePorRazonSocial(@PathVariable String razonSocial){
         return ResponseEntity.of(clienteServ.findByRazonSocial(razonSocial));
+    }
+    
+    @GetMapping(path = "/mail/{mail}")
+    @ApiOperation(value = "Busca un cliente por mail")
+    public ResponseEntity<Cliente> clientePorMail(@PathVariable String mail){
+        return ResponseEntity.of(clienteServ.findByMail(mail));
     }
     
     @GetMapping(path = "/obra/{idObra}")

@@ -15,5 +15,6 @@ public interface ClienteService {
 	public void eliminarCliente(Integer id);
 	public Optional<Cliente> findByCuit(String cuit);
 	public Optional<Cliente> findByRazonSocial(String razonSocial);
+	public Optional<Cliente> findByMail(String mail);
 	public boolean existeCliente(Integer id);
 }

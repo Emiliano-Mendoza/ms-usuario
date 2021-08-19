@@ -1,8 +1,0 @@
-2021-05-26 23:58:06,478 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] A continuacion se ejecutara el metodo: createObra
-2021-05-26 23:58:06,483 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Metodo de la clase: class com.dan.usuario.service.impl.ObraServiceImpl
-2021-05-26 23:58:06,483 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Argumentos: [Obra [id=null, descripcion=Casa quinta, latitud=14.2, longitud=21.4, direccion=Entre Rios 750 - Santa Fe, superficie=35, tipo=TipoObra [id=2, descripcion=Casa], cliente=Cliente [id=1, razonSocial=null, cuit=null, mail=null, maxCuentaCorriente=null, habilitadoOnline=null, user=null]]]
-2021-05-26 23:58:06,494 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Se ha ejecutado el metodo: createObra
-2021-05-26 23:58:13,100 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] A continuacion se ejecutara el metodo: createObra
-2021-05-26 23:58:13,101 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Metodo de la clase: class com.dan.usuario.service.impl.ObraServiceImpl
-2021-05-26 23:58:13,101 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Argumentos: [Obra [id=null, descripcion=Bacheo de calle, latitud=44.2, longitud=-15.4, direccion=Almafuerte 1 al 1200 - Esperanza, superficie=60, tipo=TipoObra [id=4, descripcion=Vial], cliente=Cliente [id=3, razonSocial=null, cuit=null, mail=null, maxCuentaCorriente=null, habilitadoOnline=null, user=null]]]
-2021-05-26 23:58:13,103 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Se ha ejecutado el metodo: createObra

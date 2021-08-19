@@ -1,5 +1,0 @@
-2021-08-01 22:50:28,259 INFO com.dan.usuario.aspect.LogAspect [main] Se ha ejecutado el metodo: crearCliente
-2021-08-01 22:50:28,287 INFO com.dan.usuario.aspect.LogAspect [main] A continuacion se ejecutara el metodo: crearCliente
-2021-08-01 22:50:28,287 INFO com.dan.usuario.aspect.LogAspect [main] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
-2021-08-01 22:50:28,287 INFO com.dan.usuario.aspect.LogAspect [main] Argumentos: [Cliente [id=null, razonSocial=null, cuit=null, mail=null, maxCuentaCorriente=null, habilitadoOnline=null, user=null]]
-2021-08-01 22:50:28,288 INFO com.dan.usuario.aspect.LogAspect [main] Se ha ejecutado el metodo: crearCliente
