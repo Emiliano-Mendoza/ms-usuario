@@ -1,0 +1,154 @@
+2021-08-19 08:26:08,569 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-19 08:26:08,575 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] Argumentos: [yuudfs@gmail.com]
+2021-08-19 08:26:08,590 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] Se ha ejecutado el metodo: findByMail
+2021-08-19 08:26:38,238 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-6] A continuacion se ejecutara el metodo: findByMail
+2021-08-19 08:26:38,238 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-6] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-19 08:26:38,329 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-6] Argumentos: [yuudfs@gmail.com]
+2021-08-19 08:26:38,332 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-6] Se ha ejecutado el metodo: findByMail
+2021-08-19 08:57:55,220 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-8] A continuacion se ejecutara el metodo: findByMail
+2021-08-19 08:57:55,221 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-8] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-19 08:57:55,222 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-8] Argumentos: [yuudfs@gmail.com]
+2021-08-19 08:57:55,229 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-8] Se ha ejecutado el metodo: findByMail
+2021-08-19 08:58:22,514 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] A continuacion se ejecutara el metodo: listarClientes
+2021-08-19 08:58:22,514 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-19 08:58:22,515 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Argumentos: []
+2021-08-19 08:58:22,522 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Se ha ejecutado el metodo: listarClientes
+2021-08-19 08:58:27,064 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] A continuacion se ejecutara el metodo: findByMail
+2021-08-19 08:58:27,065 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-19 08:58:27,065 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Argumentos: [yuudfs@gmail.com]
+2021-08-19 08:58:27,068 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Se ha ejecutado el metodo: findByMail
+2021-08-19 08:59:01,981 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] A continuacion se ejecutara el metodo: findByMail
+2021-08-19 08:59:01,982 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-19 08:59:01,983 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Argumentos: [yuudfs@gmail.com]
+2021-08-19 08:59:01,986 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Se ha ejecutado el metodo: findByMail
+2021-08-19 08:59:11,223 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] A continuacion se ejecutara el metodo: findByMail
+2021-08-19 08:59:11,224 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-19 08:59:11,224 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Argumentos: [yuudfs@gmail.com]
+2021-08-19 08:59:11,227 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Se ha ejecutado el metodo: findByMail
+2021-08-19 09:09:30,281 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] A continuacion se ejecutara el metodo: findByMail
+2021-08-19 09:09:30,282 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-19 09:09:30,282 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Argumentos: [yuudfs@gmail.com]
+2021-08-19 09:09:30,285 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Se ha ejecutado el metodo: findByMail
+2021-08-19 09:09:46,282 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] A continuacion se ejecutara el metodo: findByMail
+2021-08-19 09:09:46,283 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-19 09:09:46,284 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] Argumentos: [yuudfs@gmail.com]
+2021-08-19 09:09:46,289 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] Se ha ejecutado el metodo: findByMail
+2021-08-19 09:11:57,243 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-7] A continuacion se ejecutara el metodo: findByMail
+2021-08-19 09:11:57,244 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-7] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-19 09:11:57,244 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-7] Argumentos: [yuudfs@gmail.com]
+2021-08-19 09:11:57,247 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-7] Se ha ejecutado el metodo: findByMail
+2021-08-19 09:12:57,184 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-8] A continuacion se ejecutara el metodo: findByMail
+2021-08-19 09:12:57,185 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-8] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-19 09:12:57,185 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-8] Argumentos: [yuudfs@gmail.com]
+2021-08-19 09:12:57,188 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-8] Se ha ejecutado el metodo: findByMail
+2021-08-19 09:13:33,248 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] A continuacion se ejecutara el metodo: findByMail
+2021-08-19 09:13:33,249 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-19 09:13:33,249 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Argumentos: [yuudfs@gmail.com]
+2021-08-19 09:13:33,253 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Se ha ejecutado el metodo: findByMail
+2021-08-19 09:13:36,755 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] A continuacion se ejecutara el metodo: findByMail
+2021-08-19 09:13:36,755 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-19 09:13:36,756 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Argumentos: [yuudfs@gmail.com]
+2021-08-19 09:13:36,759 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Se ha ejecutado el metodo: findByMail
+2021-08-19 09:15:27,205 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] A continuacion se ejecutara el metodo: findByMail
+2021-08-19 09:15:27,206 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-19 09:15:27,206 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Argumentos: [yuudfs@gmail.com]
+2021-08-19 09:15:27,209 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Se ha ejecutado el metodo: findByMail
+2021-08-19 09:15:33,190 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] A continuacion se ejecutara el metodo: findByMail
+2021-08-19 09:15:33,191 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-19 09:15:33,191 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Argumentos: [yuudfs@gmail.com]
+2021-08-19 09:15:33,194 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Se ha ejecutado el metodo: findByMail
+2021-08-19 09:15:47,719 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] A continuacion se ejecutara el metodo: findByMail
+2021-08-19 09:15:47,720 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-19 09:15:47,720 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Argumentos: [yuudfs@gmail.com]
+2021-08-19 09:15:47,723 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Se ha ejecutado el metodo: findByMail
+2021-08-19 09:16:37,199 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] A continuacion se ejecutara el metodo: findByMail
+2021-08-19 09:16:37,199 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-19 09:16:37,200 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] Argumentos: [yuudfs@gmail.com]
+2021-08-19 09:16:37,202 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] Se ha ejecutado el metodo: findByMail
+2021-08-19 09:16:41,152 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-6] A continuacion se ejecutara el metodo: findByMail
+2021-08-19 09:16:41,153 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-6] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-19 09:16:41,153 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-6] Argumentos: [yuudfs@gmail.com]
+2021-08-19 09:16:41,156 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-6] Se ha ejecutado el metodo: findByMail
+2021-08-19 09:18:17,273 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-8] A continuacion se ejecutara el metodo: findByMail
+2021-08-19 09:18:17,275 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-8] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-19 09:18:17,275 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-8] Argumentos: [yuudfs@gmail.com]
+2021-08-19 09:18:17,278 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-8] Se ha ejecutado el metodo: findByMail
+2021-08-19 09:18:40,556 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] A continuacion se ejecutara el metodo: findByMail
+2021-08-19 09:18:40,557 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-19 09:18:40,557 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Argumentos: [yuudfs@gmail.com]
+2021-08-19 09:18:40,561 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Se ha ejecutado el metodo: findByMail
+2021-08-19 09:18:52,144 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] A continuacion se ejecutara el metodo: findByMail
+2021-08-19 09:18:52,146 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-19 09:18:52,146 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Argumentos: [yuudfs@gmail.com]
+2021-08-19 09:18:52,151 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Se ha ejecutado el metodo: findByMail
+2021-08-19 09:19:15,245 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] A continuacion se ejecutara el metodo: findByMail
+2021-08-19 09:19:15,245 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-19 09:19:15,245 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Argumentos: [yuudfs@gmail.com]
+2021-08-19 09:19:15,248 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Se ha ejecutado el metodo: findByMail
+2021-08-19 09:19:19,115 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] A continuacion se ejecutara el metodo: findByMail
+2021-08-19 09:19:19,117 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-19 09:19:19,118 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Argumentos: [yuudfs@gmail.com]
+2021-08-19 09:19:19,120 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Se ha ejecutado el metodo: findByMail
+2021-08-19 09:19:44,970 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] A continuacion se ejecutara el metodo: findByMail
+2021-08-19 09:19:44,972 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-19 09:19:44,972 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Argumentos: [yuudfs@gmail.com]
+2021-08-19 09:19:44,975 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Se ha ejecutado el metodo: findByMail
+2021-08-19 09:19:47,094 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] A continuacion se ejecutara el metodo: findByMail
+2021-08-19 09:19:47,094 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-19 09:19:47,095 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Argumentos: [yuudfs@gmail.com]
+2021-08-19 09:19:47,097 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Se ha ejecutado el metodo: findByMail
+2021-08-19 09:19:56,301 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] A continuacion se ejecutara el metodo: findByMail
+2021-08-19 09:19:56,302 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-19 09:19:56,302 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] Argumentos: [yuudfs@gmail.com]
+2021-08-19 09:19:56,306 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] Se ha ejecutado el metodo: findByMail
+2021-08-19 09:19:58,414 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-6] A continuacion se ejecutara el metodo: findByMail
+2021-08-19 09:19:58,414 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-6] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-19 09:19:58,414 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-6] Argumentos: [yuudfs@gmail.com]
+2021-08-19 09:19:58,418 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-6] Se ha ejecutado el metodo: findByMail
+2021-08-19 09:24:55,350 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-8] A continuacion se ejecutara el metodo: findByMail
+2021-08-19 09:24:55,351 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-8] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-19 09:24:55,351 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-8] Argumentos: [yuudfs@gmail.com]
+2021-08-19 09:24:55,361 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-8] Se ha ejecutado el metodo: findByMail
+2021-08-19 09:25:29,251 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] A continuacion se ejecutara el metodo: findByMail
+2021-08-19 09:25:29,252 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-19 09:25:29,252 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Argumentos: [yuudfs@gmail.com]
+2021-08-19 09:25:29,255 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Se ha ejecutado el metodo: findByMail
+2021-08-19 09:26:30,244 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] A continuacion se ejecutara el metodo: findByMail
+2021-08-19 09:26:30,245 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-19 09:26:30,245 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Argumentos: [yuudfs@gmail.com]
+2021-08-19 09:26:30,248 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Se ha ejecutado el metodo: findByMail
+2021-08-19 09:28:16,257 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] A continuacion se ejecutara el metodo: findByMail
+2021-08-19 09:28:16,258 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-19 09:28:16,258 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Argumentos: [yuudfs@gmail.com]
+2021-08-19 09:28:16,261 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Se ha ejecutado el metodo: findByMail
+2021-08-19 09:28:21,762 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] A continuacion se ejecutara el metodo: findByMail
+2021-08-19 09:28:21,763 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-19 09:28:21,763 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Argumentos: [yuudfs@gmail.com]
+2021-08-19 09:28:21,767 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Se ha ejecutado el metodo: findByMail
+2021-08-19 09:30:26,255 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-6] A continuacion se ejecutara el metodo: findByMail
+2021-08-19 09:30:26,255 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-6] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-19 09:30:26,255 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-6] Argumentos: [yuudfs@gmail.com]
+2021-08-19 09:30:26,258 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-6] Se ha ejecutado el metodo: findByMail
+2021-08-19 09:30:36,242 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-7] A continuacion se ejecutara el metodo: findByMail
+2021-08-19 09:30:36,242 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-7] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-19 09:30:36,243 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-7] Argumentos: [yuudfs@gmail.com]
+2021-08-19 09:30:36,246 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-7] Se ha ejecutado el metodo: findByMail
+2021-08-19 09:31:34,250 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-8] A continuacion se ejecutara el metodo: findByMail
+2021-08-19 09:31:34,251 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-8] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-19 09:31:34,251 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-8] Argumentos: [yuudfs@gmail.com]
+2021-08-19 09:31:34,253 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-8] Se ha ejecutado el metodo: findByMail
+2021-08-19 09:32:02,970 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] A continuacion se ejecutara el metodo: findByMail
+2021-08-19 09:32:02,970 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-19 09:32:02,971 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Argumentos: [yuudfs@gmail.com]
+2021-08-19 09:32:02,973 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Se ha ejecutado el metodo: findByMail
+2021-08-19 09:32:16,922 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] A continuacion se ejecutara el metodo: findByMail
+2021-08-19 09:32:16,923 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-19 09:32:16,924 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Argumentos: [yuudfs@gmail.com]
+2021-08-19 09:32:16,927 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Se ha ejecutado el metodo: findByMail
+2021-08-19 09:32:28,200 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] A continuacion se ejecutara el metodo: findByMail
+2021-08-19 09:32:28,201 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-19 09:32:28,201 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Argumentos: [yuudfs@gmail.com]
+2021-08-19 09:32:28,203 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Se ha ejecutado el metodo: findByMail
+2021-08-19 09:32:56,159 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] A continuacion se ejecutara el metodo: findByMail
+2021-08-19 09:32:56,160 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-19 09:32:56,160 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Argumentos: [yuudfs@gmail.com]
