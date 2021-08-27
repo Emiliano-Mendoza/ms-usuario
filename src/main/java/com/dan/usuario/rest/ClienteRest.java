@@ -3,6 +3,7 @@ package com.dan.usuario.rest;
 
 import com.dan.usuario.service.ClienteService;
 import com.dan.usuario.service.ObraService;
+import com.dan.usuario.service.UsuarioService;
 import com.dan.usuario.domain.Cliente;
 import com.dan.usuario.domain.Obra;
 import com.dan.usuario.domain.TipoUsuario;
@@ -44,8 +45,8 @@ public class ClienteRest {
 	private ClienteService clienteServ;
     @Autowired
     private ObraService obraServ;
-//    @Autowired
-//    private TipoUsuarioService tipoServ;
+    @Autowired
+    private UsuarioService usuarioServ;
     
     
     @GetMapping(path = "/id/{id}")
@@ -77,6 +78,18 @@ public class ClienteRest {
     public ResponseEntity<Cliente> clientePorIdObra(@PathVariable Integer idObra){
     	Optional<Obra> obra = obraServ.findById(idObra);
     	return ResponseEntity.of(clienteServ.buscarPorId(obra.get().getCliente().getId()));
+    }
+    
+    @GetMapping(path = "/usuario/{idUsuario}")
+    @ApiOperation(value = "Cliente asociado a un usuario")
+    public ResponseEntity<Cliente> clientePorIdUsuario(@PathVariable Integer idUsuario){
+    	//Optional<Usuario> usuario = usuarioServ.findById(idUsuario);
+    	Cliente cliente = clienteServ.buscarPorUsuario(idUsuario);
+    	
+    	if(cliente != null) {
+    		return ResponseEntity.ok(cliente);
+    	}
+    	return ResponseEntity.notFound().build();
     }
     
     @GetMapping

@@ -71,5 +71,17 @@ public class ClienteServiceImpl implements ClienteService {
 		// TODO Auto-generated method stub
 		return clienteRepo.findByMail(mail);
 	}
+
+	@Override
+	public Cliente buscarPorUsuario(Integer idUsuario) {
+		Cliente cliente = clienteRepo.findAll()
+				.stream()
+				.filter(c -> c.getUser().getId().equals(idUsuario))
+				.findFirst().get()
+				;
+		
+		
+		return cliente;
+	}
 	
 }

@@ -16,5 +16,7 @@ public interface ClienteService {
 	public Optional<Cliente> findByCuit(String cuit);
 	public Optional<Cliente> findByRazonSocial(String razonSocial);
 	public Optional<Cliente> findByMail(String mail);
+	public Cliente buscarPorUsuario(Integer idUsuario);
+	
 	public boolean existeCliente(Integer id);
 }
