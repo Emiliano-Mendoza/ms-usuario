@@ -1,5 +1,6 @@
 package com.dan.usuario.domain;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -18,7 +19,7 @@ public class Empleado {
 	private Integer id;
 	private String mail;
 	
-	@OneToOne
+	@OneToOne(cascade = CascadeType.ALL)
 	@JoinColumn(name = "ID_USUARIO")
 	private Usuario user;
 	

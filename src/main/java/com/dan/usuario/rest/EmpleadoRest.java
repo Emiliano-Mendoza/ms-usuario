@@ -6,6 +6,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -17,6 +18,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 import com.dan.usuario.domain.Empleado;
+import com.dan.usuario.domain.TipoUsuario;
+import com.dan.usuario.domain.Usuario;
 import com.dan.usuario.service.EmpleadoService;
 
 import io.swagger.annotations.Api;
@@ -28,6 +31,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 @RestController
+@CrossOrigin(origins = "*")
 @RequestMapping("/api/empleado")
 @Api(value = "EmpleadoRest")
 public class EmpleadoRest {
@@ -49,7 +53,7 @@ public class EmpleadoRest {
     @PostMapping
     public ResponseEntity<Empleado> crear(@RequestBody Empleado nuevo){
     	System.out.println(" crear empleado "+nuevo);
-    	Empleado temp = empleadoServ.createEmpleado(nuevo);
+    	
     	
     	if(nuevo.getMail()!=null) {
     		// Patrón para validar el email
@@ -60,6 +64,17 @@ public class EmpleadoRest {
             Matcher mather = pattern.matcher(nuevo.getMail());
             
             if (mather.find() == true) {
+            	
+            	if(nuevo.getUser()==null) {
+        			Usuario usr = new Usuario();
+        			usr.setPassword("1234");
+        			usr.setUser(nuevo.getMail());
+        			usr.setTipoUsuario(new TipoUsuario(2,"Vendedor"));
+        			nuevo.setUser(usr);
+        		}
+            	
+            	Empleado temp = empleadoServ.createEmpleado(nuevo);
+            	
                 try {
                   	return ResponseEntity.created(new URI("/api/empleado" + temp.getId())).body(temp);
                   }catch(Exception e) {

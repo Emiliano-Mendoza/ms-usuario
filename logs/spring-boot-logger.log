@@ -1,108 +1,136 @@
-2021-08-27 13:20:52,412 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting UsuarioApplication using Java 15.0.1 on DESKTOP-KTL7JPA with PID 15748 (C:\Users\Usuario\Desktop\Sistemas\Electivas\Desarrollo de aplicaciones en la Nube\Laboratorio\Repositorios Integrados\dan-ms-usuarios\target\classes started by Usuario in C:\Users\Usuario\Desktop\Sistemas\Electivas\Desarrollo de aplicaciones en la Nube\Laboratorio\Repositorios Integrados\dan-ms-usuarios)
-2021-08-27 13:20:52,418 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
-2021-08-27 13:21:11,164 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started UsuarioApplication in 19.896 seconds (JVM running for 21.447)
-2021-08-27 13:23:34,248 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] A continuacion se ejecutara el metodo: findById
-2021-08-27 13:23:34,249 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Metodo de la clase: class com.dan.usuario.service.impl.UsuarioServiceImpl
-2021-08-27 13:23:34,249 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Argumentos: [1]
-2021-08-27 13:23:34,688 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Se ha ejecutado el metodo: findById
-2021-08-27 13:23:34,770 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] A continuacion se ejecutara el metodo: findById
-2021-08-27 13:23:34,770 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Metodo de la clase: class com.dan.usuario.service.impl.UsuarioServiceImpl
-2021-08-27 13:23:34,771 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Argumentos: [1]
-2021-08-27 13:23:34,775 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Se ha ejecutado el metodo: findById
-2021-08-27 13:24:03,703 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] A continuacion se ejecutara el metodo: listarClientes
-2021-08-27 13:24:03,703 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
-2021-08-27 13:24:03,704 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Argumentos: []
-2021-08-27 13:24:04,534 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Se ha ejecutado el metodo: listarClientes
-2021-08-27 13:24:17,445 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] A continuacion se ejecutara el metodo: listarClientes
-2021-08-27 13:24:17,445 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
-2021-08-27 13:24:17,446 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Argumentos: []
-2021-08-27 13:24:17,453 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Se ha ejecutado el metodo: listarClientes
-2021-08-27 13:24:49,464 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] A continuacion se ejecutara el metodo: listarClientes
-2021-08-27 13:24:49,465 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
-2021-08-27 13:24:49,465 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] Argumentos: []
-2021-08-27 13:24:49,474 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] Se ha ejecutado el metodo: listarClientes
-2021-08-27 13:24:55,034 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-6] A continuacion se ejecutara el metodo: getAllUsuarios
-2021-08-27 13:24:55,034 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-6] Metodo de la clase: class com.dan.usuario.service.impl.UsuarioServiceImpl
-2021-08-27 13:24:55,035 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-6] Argumentos: []
-2021-08-27 13:24:55,043 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-6] Se ha ejecutado el metodo: getAllUsuarios
-2021-08-27 13:43:59,062 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting UsuarioApplication using Java 15.0.1 on DESKTOP-KTL7JPA with PID 16828 (C:\Users\Usuario\Desktop\Sistemas\Electivas\Desarrollo de aplicaciones en la Nube\Laboratorio\Repositorios Integrados\dan-ms-usuarios\target\classes started by Usuario in C:\Users\Usuario\Desktop\Sistemas\Electivas\Desarrollo de aplicaciones en la Nube\Laboratorio\Repositorios Integrados\dan-ms-usuarios)
-2021-08-27 13:43:59,064 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
-2021-08-27 13:44:08,797 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started UsuarioApplication in 10.402 seconds (JVM running for 11.559)
-2021-08-27 13:44:45,455 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting UsuarioApplication using Java 15.0.1 on DESKTOP-KTL7JPA with PID 10144 (C:\Users\Usuario\Desktop\Sistemas\Electivas\Desarrollo de aplicaciones en la Nube\Laboratorio\Repositorios Integrados\dan-ms-usuarios\target\classes started by Usuario in C:\Users\Usuario\Desktop\Sistemas\Electivas\Desarrollo de aplicaciones en la Nube\Laboratorio\Repositorios Integrados\dan-ms-usuarios)
-2021-08-27 13:44:45,457 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
-2021-08-27 13:44:54,879 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started UsuarioApplication in 10.133 seconds (JVM running for 11.24)
-2021-08-27 13:46:49,981 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting UsuarioApplication using Java 15.0.1 on DESKTOP-KTL7JPA with PID 10612 (C:\Users\Usuario\Desktop\Sistemas\Electivas\Desarrollo de aplicaciones en la Nube\Laboratorio\Repositorios Integrados\dan-ms-usuarios\target\classes started by Usuario in C:\Users\Usuario\Desktop\Sistemas\Electivas\Desarrollo de aplicaciones en la Nube\Laboratorio\Repositorios Integrados\dan-ms-usuarios)
-2021-08-27 13:46:49,983 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
-2021-08-27 13:46:59,676 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started UsuarioApplication in 10.418 seconds (JVM running for 11.649)
-2021-08-27 13:47:25,527 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] A continuacion se ejecutara el metodo: listarClientes
-2021-08-27 13:47:25,528 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
-2021-08-27 13:47:25,528 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Argumentos: []
-2021-08-27 13:47:25,736 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Se ha ejecutado el metodo: listarClientes
-2021-08-27 13:47:49,357 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] A continuacion se ejecutara el metodo: buscarPorUsuario
-2021-08-27 13:47:49,358 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
-2021-08-27 13:47:49,358 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Argumentos: [1]
-2021-08-27 13:47:49,367 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Se ha ejecutado el metodo: buscarPorUsuario
-2021-08-27 13:47:56,094 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] A continuacion se ejecutara el metodo: buscarPorUsuario
-2021-08-27 13:47:56,095 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
-2021-08-27 13:47:56,095 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Argumentos: [3]
-2021-08-27 13:47:56,101 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Se ha ejecutado el metodo: buscarPorUsuario
-2021-08-27 13:48:13,465 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] A continuacion se ejecutara el metodo: listarClientes
-2021-08-27 13:48:13,466 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
-2021-08-27 13:48:13,466 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] Argumentos: []
-2021-08-27 13:48:13,472 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] Se ha ejecutado el metodo: listarClientes
-2021-08-27 13:49:43,195 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] A continuacion se ejecutara el metodo: findById
-2021-08-27 13:49:43,196 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Metodo de la clase: class com.dan.usuario.service.impl.UsuarioServiceImpl
-2021-08-27 13:49:43,196 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Argumentos: [1]
-2021-08-27 13:49:43,203 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Se ha ejecutado el metodo: findById
-2021-08-27 13:49:45,130 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] A continuacion se ejecutara el metodo: listarClientes
-2021-08-27 13:49:45,130 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
-2021-08-27 13:49:45,131 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Argumentos: []
-2021-08-27 13:49:45,137 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Se ha ejecutado el metodo: listarClientes
-2021-08-27 13:51:07,043 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] A continuacion se ejecutara el metodo: buscarPorUsuario
-2021-08-27 13:51:07,043 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
-2021-08-27 13:51:07,043 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Argumentos: [1]
-2021-08-27 13:51:07,049 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Se ha ejecutado el metodo: buscarPorUsuario
-2021-08-27 13:53:24,029 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] A continuacion se ejecutara el metodo: buscarPorUsuario
-2021-08-27 13:53:24,031 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
-2021-08-27 13:53:24,031 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Argumentos: [1]
-2021-08-27 13:53:24,039 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Se ha ejecutado el metodo: buscarPorUsuario
-2021-08-27 13:54:07,181 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] A continuacion se ejecutara el metodo: buscarPorUsuario
-2021-08-27 13:54:07,182 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
-2021-08-27 13:54:07,183 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] Argumentos: [1]
-2021-08-27 13:54:07,188 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] Se ha ejecutado el metodo: buscarPorUsuario
-2021-08-27 13:54:08,537 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-6] A continuacion se ejecutara el metodo: listarClientes
-2021-08-27 13:54:08,538 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-6] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
-2021-08-27 13:54:08,538 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-6] Argumentos: []
-2021-08-27 13:54:08,542 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-6] Se ha ejecutado el metodo: listarClientes
-2021-08-27 13:54:09,572 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-7] A continuacion se ejecutara el metodo: buscarPorUsuario
-2021-08-27 13:54:09,573 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-7] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
-2021-08-27 13:54:09,573 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-7] Argumentos: [1]
-2021-08-27 13:54:09,579 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-7] Se ha ejecutado el metodo: buscarPorUsuario
-2021-08-27 13:54:10,252 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-8] A continuacion se ejecutara el metodo: listarClientes
-2021-08-27 13:54:10,252 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-8] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
-2021-08-27 13:54:10,253 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-8] Argumentos: []
-2021-08-27 13:54:10,259 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-8] Se ha ejecutado el metodo: listarClientes
-2021-08-27 13:54:17,356 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] A continuacion se ejecutara el metodo: findById
-2021-08-27 13:54:17,357 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Metodo de la clase: class com.dan.usuario.service.impl.UsuarioServiceImpl
-2021-08-27 13:54:17,357 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Argumentos: [1]
-2021-08-27 13:54:17,359 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Se ha ejecutado el metodo: findById
-2021-08-27 13:54:19,261 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] A continuacion se ejecutara el metodo: listarClientes
-2021-08-27 13:54:19,262 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
-2021-08-27 13:54:19,263 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Argumentos: []
-2021-08-27 13:54:19,268 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Se ha ejecutado el metodo: listarClientes
-2021-08-27 13:54:52,008 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] A continuacion se ejecutara el metodo: buscarPorUsuario
-2021-08-27 13:54:52,008 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
-2021-08-27 13:54:52,008 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Argumentos: [1]
-2021-08-27 13:54:52,015 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Se ha ejecutado el metodo: buscarPorUsuario
-2021-08-27 13:54:56,600 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] A continuacion se ejecutara el metodo: listarClientes
-2021-08-27 13:54:56,601 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
-2021-08-27 13:54:56,601 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Argumentos: []
-2021-08-27 13:54:56,608 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Se ha ejecutado el metodo: listarClientes
-2021-08-27 13:54:57,587 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] A continuacion se ejecutara el metodo: buscarPorUsuario
-2021-08-27 13:54:57,588 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
-2021-08-27 13:54:57,588 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Argumentos: [1]
-2021-08-27 13:54:57,593 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Se ha ejecutado el metodo: buscarPorUsuario
-2021-08-27 13:55:00,234 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] A continuacion se ejecutara el metodo: listarClientes
-2021-08-27 13:55:00,235 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
-2021-08-27 13:55:00,235 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Argumentos: []
-2021-08-27 13:55:00,241 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Se ha ejecutado el metodo: listarClientes
+2021-08-30 16:04:54,639 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] A continuacion se ejecutara el metodo: buscarPorUsuario
+2021-08-30 16:04:54,652 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-30 16:04:54,654 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Argumentos: [1]
+2021-08-30 16:04:54,662 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Se ha ejecutado el metodo: buscarPorUsuario
+2021-08-30 16:05:19,805 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] A continuacion se ejecutara el metodo: buscarPorUsuario
+2021-08-30 16:05:19,806 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-30 16:05:19,806 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] Argumentos: [1]
+2021-08-30 16:05:19,813 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] Se ha ejecutado el metodo: buscarPorUsuario
+2021-08-30 16:05:49,153 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-6] A continuacion se ejecutara el metodo: buscarPorUsuario
+2021-08-30 16:05:49,154 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-6] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-30 16:05:49,154 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-6] Argumentos: [1]
+2021-08-30 16:05:49,162 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-6] Se ha ejecutado el metodo: buscarPorUsuario
+2021-08-30 16:07:18,737 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-8] A continuacion se ejecutara el metodo: buscarPorUsuario
+2021-08-30 16:07:18,738 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-8] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-30 16:07:18,738 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-8] Argumentos: [1]
+2021-08-30 16:07:18,747 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-8] Se ha ejecutado el metodo: buscarPorUsuario
+2021-08-30 16:07:39,151 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] A continuacion se ejecutara el metodo: buscarPorUsuario
+2021-08-30 16:07:39,152 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-30 16:07:39,152 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Argumentos: [1]
+2021-08-30 16:07:39,159 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Se ha ejecutado el metodo: buscarPorUsuario
+2021-08-30 16:08:33,686 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] A continuacion se ejecutara el metodo: buscarPorUsuario
+2021-08-30 16:08:33,687 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-30 16:08:33,687 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Argumentos: [1]
+2021-08-30 16:08:33,697 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Se ha ejecutado el metodo: buscarPorUsuario
+2021-08-30 16:08:49,165 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] A continuacion se ejecutara el metodo: buscarPorUsuario
+2021-08-30 16:08:49,165 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-30 16:08:49,165 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Argumentos: [1]
+2021-08-30 16:08:49,172 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Se ha ejecutado el metodo: buscarPorUsuario
+2021-08-30 16:11:04,251 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] A continuacion se ejecutara el metodo: listarClientes
+2021-08-30 16:11:04,252 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-30 16:11:04,252 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Argumentos: []
+2021-08-30 16:11:04,258 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Se ha ejecutado el metodo: listarClientes
+2021-08-30 16:11:04,967 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] A continuacion se ejecutara el metodo: buscarPorUsuario
+2021-08-30 16:11:04,969 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-30 16:11:04,969 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Argumentos: [1]
+2021-08-30 16:11:04,976 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Se ha ejecutado el metodo: buscarPorUsuario
+2021-08-30 16:11:07,226 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] A continuacion se ejecutara el metodo: buscarPorUsuario
+2021-08-30 16:11:07,227 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-30 16:11:07,227 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] Argumentos: [1]
+2021-08-30 16:11:07,233 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] Se ha ejecutado el metodo: buscarPorUsuario
+2021-08-30 16:11:08,091 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-6] A continuacion se ejecutara el metodo: listarClientes
+2021-08-30 16:11:08,091 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-6] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-30 16:11:08,092 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-6] Argumentos: []
+2021-08-30 16:11:08,095 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-6] Se ha ejecutado el metodo: listarClientes
+2021-08-30 16:11:10,419 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-7] A continuacion se ejecutara el metodo: listarClientes
+2021-08-30 16:11:10,420 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-7] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-30 16:11:10,420 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-7] Argumentos: []
+2021-08-30 16:11:10,424 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-7] Se ha ejecutado el metodo: listarClientes
+2021-08-30 16:11:37,091 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-8] A continuacion se ejecutara el metodo: buscarPorUsuario
+2021-08-30 16:11:37,092 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-8] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-30 16:11:37,092 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-8] Argumentos: [1]
+2021-08-30 16:11:37,096 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-8] Se ha ejecutado el metodo: buscarPorUsuario
+2021-08-30 16:11:38,965 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] A continuacion se ejecutara el metodo: listarClientes
+2021-08-30 16:11:38,966 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-30 16:11:38,966 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Argumentos: []
+2021-08-30 16:11:38,972 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Se ha ejecutado el metodo: listarClientes
+2021-08-30 16:11:40,971 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] A continuacion se ejecutara el metodo: listarClientes
+2021-08-30 16:11:40,971 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-30 16:11:40,971 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Argumentos: []
+2021-08-30 16:11:40,975 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Se ha ejecutado el metodo: listarClientes
+2021-08-30 16:12:39,631 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] A continuacion se ejecutara el metodo: buscarPorUsuario
+2021-08-30 16:12:39,631 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-30 16:12:39,632 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Argumentos: [1]
+2021-08-30 16:12:39,636 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Se ha ejecutado el metodo: buscarPorUsuario
+2021-08-30 16:15:14,609 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] A continuacion se ejecutara el metodo: buscarPorUsuario
+2021-08-30 16:15:14,610 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-30 16:15:14,611 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Argumentos: [1]
+2021-08-30 16:15:14,621 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Se ha ejecutado el metodo: buscarPorUsuario
+2021-08-30 16:15:44,967 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] A continuacion se ejecutara el metodo: buscarPorUsuario
+2021-08-30 16:15:44,968 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-30 16:15:44,969 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Argumentos: [1]
+2021-08-30 16:15:44,977 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Se ha ejecutado el metodo: buscarPorUsuario
+2021-08-30 16:15:58,661 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] A continuacion se ejecutara el metodo: buscarPorUsuario
+2021-08-30 16:15:58,661 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-30 16:15:58,662 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] Argumentos: [1]
+2021-08-30 16:15:58,667 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] Se ha ejecutado el metodo: buscarPorUsuario
+2021-08-30 16:27:30,054 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-7] A continuacion se ejecutara el metodo: buscarPorUsuario
+2021-08-30 16:27:30,054 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-7] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-30 16:27:30,054 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-7] Argumentos: [1]
+2021-08-30 16:27:30,064 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-7] Se ha ejecutado el metodo: buscarPorUsuario
+2021-08-30 16:27:31,846 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-8] A continuacion se ejecutara el metodo: listarClientes
+2021-08-30 16:27:31,846 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-8] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-30 16:27:31,846 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-8] Argumentos: []
+2021-08-30 16:27:31,850 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-8] Se ha ejecutado el metodo: listarClientes
+2021-08-30 16:27:36,383 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] A continuacion se ejecutara el metodo: listarClientes
+2021-08-30 16:27:36,383 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-30 16:27:36,383 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Argumentos: []
+2021-08-30 16:27:36,387 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Se ha ejecutado el metodo: listarClientes
+2021-08-30 16:27:40,859 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] A continuacion se ejecutara el metodo: buscarPorUsuario
+2021-08-30 16:27:40,860 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-30 16:27:40,860 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Argumentos: [1]
+2021-08-30 16:27:40,865 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Se ha ejecutado el metodo: buscarPorUsuario
+2021-08-30 16:27:44,325 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] A continuacion se ejecutara el metodo: buscarPorUsuario
+2021-08-30 16:27:44,326 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-30 16:27:44,326 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Argumentos: [1]
+2021-08-30 16:27:44,331 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Se ha ejecutado el metodo: buscarPorUsuario
+2021-08-30 16:29:41,388 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] A continuacion se ejecutara el metodo: buscarPorUsuario
+2021-08-30 16:29:41,389 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-30 16:29:41,389 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Argumentos: [1]
+2021-08-30 16:29:41,396 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Se ha ejecutado el metodo: buscarPorUsuario
+2021-08-30 16:29:43,932 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] A continuacion se ejecutara el metodo: buscarPorUsuario
+2021-08-30 16:29:43,932 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-30 16:29:43,932 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Argumentos: [1]
+2021-08-30 16:29:43,936 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-4] Se ha ejecutado el metodo: buscarPorUsuario
+2021-08-30 16:29:45,312 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] A continuacion se ejecutara el metodo: listarClientes
+2021-08-30 16:29:45,313 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-30 16:29:45,313 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] Argumentos: []
+2021-08-30 16:29:45,316 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-5] Se ha ejecutado el metodo: listarClientes
+2021-08-30 16:31:22,023 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-7] A continuacion se ejecutara el metodo: buscarPorUsuario
+2021-08-30 16:31:22,023 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-7] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-30 16:31:22,023 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-7] Argumentos: [1]
+2021-08-30 16:31:22,028 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-7] Se ha ejecutado el metodo: buscarPorUsuario
+2021-08-30 16:31:24,713 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-8] A continuacion se ejecutara el metodo: listarClientes
+2021-08-30 16:31:24,714 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-8] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-30 16:31:24,714 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-8] Argumentos: []
+2021-08-30 16:31:24,720 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-8] Se ha ejecutado el metodo: listarClientes
+2021-08-30 16:31:25,860 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] A continuacion se ejecutara el metodo: buscarPorUsuario
+2021-08-30 16:31:25,860 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-30 16:31:25,860 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Argumentos: [1]
+2021-08-30 16:31:25,864 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-9] Se ha ejecutado el metodo: buscarPorUsuario
+2021-08-30 16:31:26,543 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] A continuacion se ejecutara el metodo: listarClientes
+2021-08-30 16:31:26,543 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-30 16:31:26,543 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Argumentos: []
+2021-08-30 16:31:26,546 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-10] Se ha ejecutado el metodo: listarClientes
+2021-08-30 16:31:27,945 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] A continuacion se ejecutara el metodo: listarClientes
+2021-08-30 16:31:27,946 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-30 16:31:27,946 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Argumentos: []
+2021-08-30 16:31:27,950 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-1] Se ha ejecutado el metodo: listarClientes
+2021-08-30 16:31:30,880 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] A continuacion se ejecutara el metodo: buscarPorUsuario
+2021-08-30 16:31:30,881 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-30 16:31:30,881 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Argumentos: [1]
+2021-08-30 16:31:30,886 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-2] Se ha ejecutado el metodo: buscarPorUsuario
+2021-08-30 16:31:36,759 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] A continuacion se ejecutara el metodo: buscarPorUsuario
+2021-08-30 16:31:36,760 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Metodo de la clase: class com.dan.usuario.service.impl.ClienteServiceImpl
+2021-08-30 16:31:36,760 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Argumentos: [1]
+2021-08-30 16:31:36,765 INFO com.dan.usuario.aspect.LogAspect [http-nio-9000-exec-3] Se ha ejecutado el metodo: buscarPorUsuario
